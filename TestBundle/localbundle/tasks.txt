@@ -1,0 +1,206 @@
+Incremental java compilation is an incubating feature.
+:localbundle:tasks
+
+------------------------------------------------------------
+All tasks runnable from project :localbundle
+------------------------------------------------------------
+
+Android tasks
+-------------
+androidDependencies - Displays the Android dependencies of the project.
+signingReport - Displays the signing info for each variant.
+sourceSets - Prints out all the source sets defined in this project.
+
+Build tasks
+-----------
+assemble - Assembles all variants of all applications and secondary packages.
+assembleAndroidTest - Assembles all the Test applications.
+assembleDebug - Assembles all Debug builds.
+assembleRelease - Assembles all Release builds.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+clean - Deletes the build directory.
+cleanBuildCache - Deletes the build cache directory.
+compileDebugAndroidTestSources
+compileDebugSources
+compileDebugUnitTestSources
+compileReleaseSources
+compileReleaseUnitTestSources
+extractDebugAnnotations - Extracts Android annotations for the debug variant into the archive file
+extractReleaseAnnotations - Extracts Android annotations for the release variant into the archive file
+mockableAndroidJar - Creates a version of android.jar that's suitable for unit tests.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in project ':localbundle'.
+components - Displays the components produced by project ':localbundle'. [incubating]
+dependencies - Displays all dependencies declared in project ':localbundle'.
+dependencyInsight - Displays the insight into a specific dependency in project ':localbundle'.
+dependentComponents - Displays the dependent components of components in project ':localbundle'. [incubating]
+help - Displays a help message.
+model - Displays the configuration model of project ':localbundle'. [incubating]
+projects - Displays the sub-projects of project ':localbundle'.
+properties - Displays the properties of project ':localbundle'.
+tasks - Displays the tasks runnable from project ':localbundle'.
+
+Install tasks
+-------------
+installDebugAndroidTest - Installs the android (on device) tests for the Debug build.
+uninstallAll - Uninstall all applications.
+uninstallDebugAndroidTest - Uninstalls the android (on device) tests for the Debug build.
+
+Verification tasks
+------------------
+check - Runs all checks.
+connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+connectedCheck - Runs all device checks on currently connected devices.
+connectedDebugAndroidTest - Installs and runs the tests for debug on connected devices.
+deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+deviceCheck - Runs all device checks using Device Providers and Test Servers.
+lint - Runs lint on all variants.
+lintDebug - Runs lint on the Debug build.
+lintRelease - Runs lint on the Release build.
+test - Run unit tests for all variants.
+testDebugUnitTest - Run unit tests for the debug build.
+testReleaseUnitTest - Run unit tests for the release build.
+
+Other tasks
+-----------
+assembleDebugAndroidTest
+assembleDebugUnitTest
+assembleDefault
+assembleReleaseUnitTest
+atlasList
+bundleDebug - Assembles a bundle containing the library in debug.
+bundleRelease - Assembles a bundle containing the library in release.
+checkDebugManifest
+checkReleaseManifest
+compileDebugAidl
+compileDebugAndroidTestAidl
+compileDebugAndroidTestJavaWithJavac
+compileDebugAndroidTestNdk
+compileDebugAndroidTestRenderscript
+compileDebugAndroidTestShaders
+compileDebugJavaWithJavac
+compileDebugNdk
+compileDebugRenderscript
+compileDebugShaders
+compileDebugUnitTestJavaWithJavac
+compileLint
+compileReleaseAidl
+compileReleaseJavaWithJavac
+compileReleaseNdk
+compileReleaseRenderscript
+compileReleaseShaders
+compileReleaseUnitTestJavaWithJavac
+copyDebugLint
+copyReleaseLint
+extractProguardFiles
+generateDebugAndroidTestAssets
+generateDebugAndroidTestBuildConfig
+generateDebugAndroidTestResources
+generateDebugAndroidTestResValues
+generateDebugAndroidTestSources
+generateDebugAssets
+generateDebugBuildConfig
+generateDebugResources
+generateDebugResValues
+generateDebugSources
+generateReleaseAssets
+generateReleaseBuildConfig
+generateReleaseResources
+generateReleaseResValues
+generateReleaseSources
+incrementalDebugAndroidTestJavaCompilationSafeguard
+incrementalDebugJavaCompilationSafeguard
+incrementalDebugUnitTestJavaCompilationSafeguard
+incrementalReleaseJavaCompilationSafeguard
+incrementalReleaseUnitTestJavaCompilationSafeguard
+javaPreCompileDebug
+javaPreCompileDebugAndroidTest
+javaPreCompileDebugUnitTest
+javaPreCompileRelease
+javaPreCompileReleaseUnitTest
+mergeDebugAndroidTestAssets
+mergeDebugAndroidTestJniLibFolders
+mergeDebugAndroidTestResources
+mergeDebugAndroidTestShaders
+mergeDebugAssets
+mergeDebugJniLibFolders
+mergeDebugProguardFiles
+mergeDebugResources
+mergeDebugShaders
+mergeReleaseAssets
+mergeReleaseJniLibFolders
+mergeReleaseProguardFiles
+mergeReleaseResources
+mergeReleaseShaders
+packageDebugAndroidTest
+packageDebugRenderscript
+packageDebugResources
+packageReleaseRenderscript
+packageReleaseResources
+preBuild
+preDebugAndroidTestBuild
+preDebugBuild
+preDebugUnitTestBuild
+prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library - Prepare com.android.support:animated-vector-drawable:26.0.0-alpha1
+prepareComAndroidSupportAppcompatV72600Alpha1Library - Prepare com.android.support:appcompat-v7:26.0.0-alpha1
+prepareComAndroidSupportConstraintConstraintLayout102Library - Prepare com.android.support.constraint:constraint-layout:1.0.2
+prepareComAndroidSupportSupportCompat2600Alpha1Library - Prepare com.android.support:support-compat:26.0.0-alpha1
+prepareComAndroidSupportSupportCoreUi2600Alpha1Library - Prepare com.android.support:support-core-ui:26.0.0-alpha1
+prepareComAndroidSupportSupportCoreUtils2600Alpha1Library - Prepare com.android.support:support-core-utils:26.0.0-alpha1
+prepareComAndroidSupportSupportFragment2600Alpha1Library - Prepare com.android.support:support-fragment:26.0.0-alpha1
+prepareComAndroidSupportSupportMediaCompat2600Alpha1Library - Prepare com.android.support:support-media-compat:26.0.0-alpha1
+prepareComAndroidSupportSupportV42600Alpha1Library - Prepare com.android.support:support-v4:26.0.0-alpha1
+prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library - Prepare com.android.support:support-vector-drawable:26.0.0-alpha1
+prepareComAndroidSupportTestEspressoEspressoCore222Library - Prepare com.android.support.test.espresso:espresso-core:2.2.2
+prepareComAndroidSupportTestEspressoEspressoIdlingResource222Library - Prepare com.android.support.test.espresso:espresso-idling-resource:2.2.2
+prepareComAndroidSupportTestExposedInstrumentationApiPublish05Library - Prepare com.android.support.test:exposed-instrumentation-api-publish:0.5
+prepareComAndroidSupportTestRules05Library - Prepare com.android.support.test:rules:0.5
+prepareComAndroidSupportTestRunner05Library - Prepare com.android.support.test:runner:0.5
+prepareDebugAndroidTestDependencies
+prepareDebugDependencies
+prepareDebugUnitTestDependencies
+prepareReleaseDependencies
+prepareReleaseUnitTestDependencies
+preReleaseBuild
+preReleaseUnitTestBuild
+processDebugAndroidTestJavaRes
+processDebugAndroidTestManifest
+processDebugAndroidTestResources
+processDebugJavaRes
+processDebugManifest
+processDebugResources
+processDebugUnitTestJavaRes
+processReleaseJavaRes
+processReleaseManifest
+processReleaseResources
+processReleaseUnitTestJavaRes
+transformClassesAndResourcesWithSyncLibJarsForDebug
+transformClassesAndResourcesWithSyncLibJarsForRelease
+transformClassesWithDexForDebugAndroidTest
+transformNativeLibsWithMergeJniLibsForDebug
+transformNativeLibsWithMergeJniLibsForDebugAndroidTest
+transformNativeLibsWithMergeJniLibsForRelease
+transformNativeLibsWithStripDebugSymbolForDebug
+transformNativeLibsWithStripDebugSymbolForRelease
+transformNativeLibsWithSyncJniLibsForDebug
+transformNativeLibsWithSyncJniLibsForRelease
+transformResourcesWithMergeJavaResForDebug
+transformResourcesWithMergeJavaResForDebugAndroidTest
+transformResourcesWithMergeJavaResForDebugUnitTest
+transformResourcesWithMergeJavaResForRelease
+transformResourcesWithMergeJavaResForReleaseUnitTest
+validateSigningDebugAndroidTest
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+Pattern: upload<ConfigurationName>: Assembles and uploads the artifacts belonging to a configuration.
+
+BUILD SUCCESSFUL
+
+Total time: 1.183 secs
